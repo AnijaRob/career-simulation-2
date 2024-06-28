@@ -1,0 +1,82 @@
+body{background-color:seashell;
+      ;
+      }
+
+
+nav{display: flex;
+  
+align-items: center;
+justify-content: ;
+gap: 25vh;
+
+align-content: start;
+padding-right: 20vh;
+padding-left: 5vh;
+padding-top:40px ;
+padding-bottom: 2vh;
+margin-bottom:10px ;
+background-color: navy;
+flex-wrap: wrap;
+flex-flow: row;
+position: fixed;
+left:0%;
+right: 0%;
+top: 0%;
+height: 10vh;
+;}
+
+a:link{text-decoration: none;
+        font-size: 30px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+       'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+a:visited{color: aliceblue;}
+
+a:hover{color: rgb(80, 170, 106);
+        font-size: 50px;}
+
+      header{display: flex;
+        align-content: flex-end;}
+
+main{display: flex;
+  align-items: center;
+  flex-direction: column
+  ;padding-top: 30px;}
+
+  img{display: flex;
+     align-items: center;
+    justify-content: center;
+  align-content: stretch;}
+
+      
+  h1{text-align: center;font-family:'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-top: 240px;
+  padding-bottom: 30px;
+  }
+
+  audio{text-align: center;}
+  
+  section{display: flex;
+          align-content: center;}
+
+  h3{display: flex;
+    text-align: center; }
+
+  #gphome{display: flex;
+          align-items:center;}
+        
+  h2{text-align: center; }
+      
+  section{display: flex
+          ;flex-direction: column;}
+
+  #tblack{display: flex;
+          align-items: center;}
+  footer{
+      padding-top: 7vh;
+      padding-bottom: 7vh;
+      padding-left: 50vh;}
+
+  #black{display: flex;
+          align-items: center;}
