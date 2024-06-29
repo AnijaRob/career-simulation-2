@@ -1,18 +1,18 @@
-@media screen and (min-width: 600px){body{background-color:seashell;}}
+@font-face {font-family:bubble;src: url(./RubikBubbles-Regular.ttf);}
+@font-face {font-family:saira;src: url(./Saira-Italic-VariableFont_wdth\,wght.ttf)}
 
-nav{display: flex;
-  
+@media screen and (min-width: 600px){body{background-color:rgb(245, 228, 207);}}
+nav{font-family: bubble,cursive;
+  display: flex;
 align-items: center;
-justify-content: ;
-gap: 25vh;
-
-align-content: start;
+justify-content:space-between ;
+align-content: flex-start;
 padding-right: 20vh;
-padding-left: 5vh;
+padding-left: 10px;
 padding-top:40px ;
-padding-bottom: 2vh;
-margin-bottom:10px ;
-background-color: navy;
+padding-bottom: 40px;
+margin-bottom:50px ;
+background-color: #252161ff;
 flex-wrap: wrap;
 flex-flow: row;
 position: fixed;
@@ -20,16 +20,17 @@ left:0%;
 right: 0%;
 top: 0%;
 height: 10vh;
-;}
+border: #0A447Cff 10px;
+box-shadow:#A5CDEFff 7px 10px ;}
 
 a:link{text-decoration: none;
-        font-size: 30px;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
-       'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+        font-size: 50px;
+      font-family: bubble,cursive;
+      text-shadow:4px 4px 4px #00000021;}
 
 a:visited{color: aliceblue;}
 
-a:hover{color: rgb(80, 170, 106);
+a:hover{color: #47B275ff;;
         font-size: 50px;}
 
       header{display: flex;
@@ -40,44 +41,67 @@ main{display: flex;
   flex-direction: column
   ;padding-top: 30px;}
 
-  img{display: flex;
+  article{display: flex;
      align-items: center;
-    justify-content: center;
-  align-content: stretch;}
+     justify-content: center
+     
+    /* gap: 58px; */
+    }
 
       
-  h1{text-align: center;font-family:'Trebuchet MS', 
-    'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  h1{text-align: center;font-family:saira,cursive;
+    font-size: 50px;
   padding-top: 240px;
   padding-bottom: 30px;
+  text-shadow: 10px 10px #A5CDEFff;
   }
 
   audio{text-align: center;}
   
   section{display: flex;
-          align-content: center;}
+          align-content: space-around;
+          justify-content: center;
+          order: 4;
+        
+    }
 
   h3{display: flex;
-    text-align: center; }
+    text-align: center; 
+    justify-content: center;
+    font-family: saira,cursive;}
 
   #gphome{display: flex;
-          align-items:center;}
+          align-items:center;
+          border-radius: 19px;}
+
         
   h2{text-align: center; }
       
-  section{display: flex
-          ;flex-direction: column;}
 
-  #tblack{display: flex;
-          align-items: center;}
+  .image-border{display: flex;
+    border: 4px solid #0A447Cff;
+    }
+
+
+  .about-images{border: 4px solid #0A447Cff;
+                }
+
+  img{display: flex;
+      align-items: space-around ;}
+
+
   footer{
       padding-top: 7vh;
       padding-bottom: 7vh;
-      padding-left: 50vh;}
+      padding-left: 85vh;
+      padding-right: 86vh;
+    margin-right: auto;
+    margin-right: auto;}
 
-  #black{display: flex;
-          align-items: center;}
+  p{font-weight: 400;
+    font-size: large;
+    font-family:saira,cursive;}
 
-  {}
+
     
-  }
+  
