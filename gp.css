@@ -42,10 +42,9 @@ main{display: flex;
   ;padding-top: 30px;}
 
   article{display: flex;
-     align-items: center;
-     justify-content: center
-     
-    /* gap: 58px; */
+    align-items: center;
+    justify-content: space-around;
+   
     }
 
       
@@ -98,7 +97,7 @@ main{display: flex;
     margin-right: auto;
     margin-right: auto;}
 
-  p{font-weight: 400;
+  p{
     font-size: large;
     font-family:saira,cursive;}
 
